@@ -1,0 +1,22 @@
+
+
+POST Request
+
+localhost:8080/environmentalData
+
+{
+    "analystName": "Thabo",
+    "waterData": "Drinkable",
+    "soilData": "Sandy",
+    "airData": "Polluted"
+}
+
+GET Request
+localhost:8080/environmentalData/all
+
+GET Request
+localhost:8080/environmentalData/2	// This returns the entry that has id 2
+
+DELETE Request
+
+localhost:8080/environmentalData/2    //this deletes the entry with id 2 from the DB
